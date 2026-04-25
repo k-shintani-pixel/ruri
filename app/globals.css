@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-serif: var(--font-noto-serif-jp), "Noto Serif JP", Georgia, serif;
+  --font-sans: var(--font-noto-sans-jp), "Noto Sans JP", system-ui, sans-serif;
+
+  /* Brand colors */
+  --color-accent: #d6cceb;
+  --color-accent-dark: #b5a7d6;
+  --color-gold: #c9a961;
+  --color-gold-light: #e8d4a0;
+  --color-ink: #2d2a32;
+  --color-ink-sub: #6b6770;
+  --color-off-white: #faf8f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #2d2a32;
+  font-family: var(--font-noto-sans-jp), "Noto Sans JP", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
