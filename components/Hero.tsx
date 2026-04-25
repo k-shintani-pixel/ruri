@@ -27,10 +27,10 @@ export function Hero() {
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-2xl mx-auto">
         {/* Eyebrow */}
         <motion.p
-          initial={{ opacity: 0, letterSpacing: "0.3em" }}
-          animate={{ opacity: 1, letterSpacing: "0.5em" }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="text-xs tracking-[0.5em] text-gold uppercase mb-8 font-sans"
+          className="text-xs tracking-[0.3em] text-gold uppercase mb-8 font-sans"
         >
           Nail Salon
         </motion.p>
@@ -40,7 +40,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="font-serif text-5xl md:text-7xl tracking-widest text-ink mb-6 leading-tight"
+          className="font-serif text-4xl sm:text-5xl md:text-7xl tracking-wide sm:tracking-widest text-ink mb-6 leading-tight break-words w-full"
         >
           {siteConfig.salonName}
         </motion.h1>
