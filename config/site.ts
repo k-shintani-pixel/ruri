@@ -1,7 +1,7 @@
 export const siteConfig = {
   salonName: "[SALON_NAME]",
   catchphrase: "あなたの指先に、上質なひとときを",
-  storesReserveUrl: "[STORES_RESERVE_URL]",
+  storesReserveUrl: "https://cdv8ghimcrnfwf2okbqr.stores.jp/reserve/48ad0f8c92357e613723/4674126",
   lineOfficialUrl: "[LINE_OFFICIAL_URL]",
   instagramId: "[INSTAGRAM_ID]",
   instagramUrl: "https://instagram.com/[INSTAGRAM_ID]",
