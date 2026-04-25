@@ -29,4 +29,5 @@ body {
   font-family: var(--font-noto-sans-jp), "Noto Sans JP", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }

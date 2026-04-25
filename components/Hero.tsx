@@ -75,14 +75,14 @@ export function Hero() {
             href={siteConfig.storesReserveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-10 py-4 bg-accent text-ink border-2 border-accent hover:bg-accent-dark hover:border-accent-dark transition-colors tracking-widest text-base font-medium font-sans min-h-[52px]"
+            className="inline-flex items-center justify-center px-6 sm:px-10 py-4 bg-accent text-ink border-2 border-accent hover:bg-accent-dark hover:border-accent-dark transition-colors tracking-wider sm:tracking-widest text-base font-medium font-sans min-h-[52px] w-full sm:w-auto"
             aria-label="STORES予約ページへ（新しいタブで開きます）"
           >
             ご予約はこちら
           </a>
           <a
             href="#menu"
-            className="inline-flex items-center justify-center px-10 py-4 bg-transparent text-ink border-2 border-ink hover:bg-ink hover:text-white transition-colors tracking-widest text-base font-medium font-sans min-h-[52px]"
+            className="inline-flex items-center justify-center px-6 sm:px-10 py-4 bg-transparent text-ink border-2 border-ink hover:bg-ink hover:text-white transition-colors tracking-wider sm:tracking-widest text-base font-medium font-sans min-h-[52px] w-full sm:w-auto"
           >
             メニューを見る
           </a>
